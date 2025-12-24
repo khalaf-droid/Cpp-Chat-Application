@@ -1,0 +1,7 @@
+1- to build and run server :
+
+g++ -std=c++17 server_multithreaded.cpp shared_memory.cpp -o server.exe -lws2_32
+
+2- to build and run client :
+
+g++ -std=c++17 client.cpp -o client.exe -lws2_32 -luser32 -lgdi32 -mwindows

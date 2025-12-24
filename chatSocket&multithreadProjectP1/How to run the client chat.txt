@@ -1,0 +1,9 @@
+build and run server:
+g++ -std=c++17 server_multithreaded.cpp -o server.exe -lws2_32
+
+
+build and run the client :
+g++ -std=c++17 client.cpp -o client.exe -lws2_32 -luser32 -lgdi32
+
+the ip of device server :
+ping 10.229.192.63

@@ -1,0 +1,11 @@
+ 1- Run the Server :
+
+code to run the server g++ -std=c++17 server_multithreaded.cpp -o     server.exe -lws2_32
+
+2- At the device has the server :
+* Run the cmd as an administrator
+  -to protect my device run
+   ( netsh advfirewall firewall add rule name="ChatServer" dir=in          action=allow protocol=TCP localport=12345 )
+  - to know the ip of device :
+ run ( ipconfig )
+ give him the ip 
